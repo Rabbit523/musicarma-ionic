@@ -1,0 +1,17 @@
+<ion-view view-title="MUSIK">
+  <ion-content class="background-color">
+      <button type="button" class="button button-full button-theme" play-all="tracks" ng-click="player.show()">Play all</button>
+    <ion-list>
+        <div class="card text-center" ng-repeat="pl in playLists" ui-sref="tab.dashAlbum.album({artist:pl.name})">
+            <div class="item item-body text-center">
+                <img src="{{pl.artworkUrl}}">
+            </div>
+            <div class="item item-divider">
+                <p>{{pl.name}}</p>
+                <p>{{pl.totalTracks}} tracks - {{pl.totalDuration}}</p>
+            </div>
+        </div>
+  
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,15 @@
+<ion-view view-title="REMSER">
+  <ion-content class="background-color">
+     <ion-list>
+         <div class="card background-color box-shadow" ng-repeat="block in data">
+             <div ng-if="block.type=='text'" ng-bind-html="block.content | trusted_html"></div>
+             <div ng-if="block.type=='cover'" class="item item-image">
+                 <img src="{{block.img_src}}" />
+             </div>
+             <div ng-if="block.type=='video'" class="item item-image">
+                 <iframe src="{{block.url_embed}}"></iframe>
+             </div>
+         </div>
+     </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,224 @@
+﻿{
+  "playlists": [
+    {
+      "id": "30",
+      "name": "Musicarma",
+      "artworkUrl": "img/album/59948582c6b6d.png",
+      "totalDuration": "8 minutes",
+      "totalTracks": 9
+    }
+  ],
+  "artwork_placeholder": "img/album/default_album.jpg",
+  "albums": [
+    {
+      "id": "83",
+      "name": "Den blå anemone",
+      "artworkUrl": "img/album/5a044962d59e4.jpg",
+      "artist": "Musicarma",
+      "totalDuration": "28",
+      "totalTracks": 1,
+      "path": "/59f3182fe2d31/media/mobile_gallery_music_album/index/value_id/398/album_id/83",
+      "type": "custom",
+      "element": "album"
+    },
+    {
+      "id": "85",
+      "name": "Nu falmer skoven ",
+      "artworkUrl": "img/album/5a044b30e438f.jpg",
+      "artist": "Musicarma",
+      "totalDuration": "28",
+      "totalTracks": 1,
+      "path": "/59f3182fe2d31/media/mobile_gallery_music_album/index/value_id/398/album_id/85",
+      "type": "custom",
+      "element": "album"
+    },
+    {
+      "id": "87",
+      "name": "Jeg ser de bøgelyse øer",
+      "artworkUrl": "img/album/5a044b9b5e64d.jpg",
+      "artist": "Musicarma",
+      "totalDuration": "28",
+      "totalTracks": 1,
+      "path": "/59f3182fe2d31/media/mobile_gallery_music_album/index/value_id/398/album_id/87",
+      "type": "custom",
+      "element": "album"
+    },
+    {
+      "id": "88",
+      "name": "Underlige aftenlufte",
+      "artworkUrl": "img/album/5a044c35f08ad.jpg",
+      "artist": "Musicarma",
+      "totalDuration": "28",
+      "totalTracks": 1,
+      "path": "/59f3182fe2d31/media/mobile_gallery_music_album/index/value_id/398/album_id/88",
+      "type": "custom",
+      "element": "album"
+    },
+    {
+      "id": "89",
+      "name": "Den milde dag er lys og lang",
+      "artworkUrl": "img/album/5a044c7f55caf.jpg",
+      "artist": "Musicarma",
+      "totalDuration": "28",
+      "totalTracks": 1,
+      "path": "/59f3182fe2d31/media/mobile_gallery_music_album/index/value_id/398/album_id/89",
+      "type": "custom",
+      "element": "album"
+    },
+    {
+      "id": "90",
+      "name": "Danmark nu blunder den lyse nat",
+      "artworkUrl": "img/album/5a044cc8d86f1.jpg",
+      "artist": "Musicarma",
+      "totalDuration": "28",
+      "totalTracks": 1,
+      "path": "/59f3182fe2d31/media/mobile_gallery_music_album/index/value_id/398/album_id/90",
+      "type": "custom",
+      "element": "album"
+    },
+    {
+      "id": "91",
+      "name": "Spurven sidder stum bag kvist",
+      "artworkUrl": "img/album/5a044d2c09fc5.jpg",
+      "artist": "Musicarma",
+      "totalDuration": "28",
+      "totalTracks": 1,
+      "path": "/59f3182fe2d31/media/mobile_gallery_music_album/index/value_id/398/album_id/91",
+      "type": "custom",
+      "element": "album"
+    },
+    {
+      "id": "92",
+      "name": "En yndig og frydefuld sommertid",
+      "artworkUrl": "img/album/5a044d7723442.jpg",
+      "artist": "Musicarma",
+      "totalDuration": "28",
+      "totalTracks": 1,
+      "path": "/59f3182fe2d31/media/mobile_gallery_music_album/index/value_id/398/album_id/92",
+      "type": "custom",
+      "element": "album"
+    },
+    {
+      "id": "93",
+      "name": "I Danmark er jeg født",
+      "artworkUrl": "img/album/5a13e59ef338d.jpg",
+      "artist": "Musicarma",
+      "totalDuration": "04:18",
+      "totalTracks": 1,
+      "path": "/59f3182fe2d31/media/mobile_gallery_music_album/index/value_id/398/album_id/93",
+      "type": "custom",
+      "element": "album"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "87",
+      "title": "Den blå anemone",
+      "artist": "Musicarma",
+      "albumName": null,
+      "albumCover": "img/album/5a044962d59e4.jpg",
+      "albumId": "38",
+      "duration": "231077",
+      "url": "http://musicarma.airbzz.dk/mp3/01-Musicarma--Den--Blaa-Anemone.mp3",
+      "purchaseUrl": null,
+      "formatedDuration": "3:51"
+    },
+    {
+      "id": "90",
+      "title": "Nu falmer skoven",
+      "artist": "Musicarma",
+      "albumName": null,
+      "albumCover": "img/album/5a044b30e438f.jpg",
+      "albumId": "41",
+      "duration": "212141",
+      "url": "http://musicarma.airbzz.dk/mp3/03-Musicarma--Nu-Falmer-Skoven-Trindt-Om-Land.mp3",
+      "purchaseUrl": null,
+      "formatedDuration": "3:32"
+    },
+    {
+      "id": "126",
+      "title": "Jeg ser de bøgelyse øer",
+      "artist": "Musicarma",
+      "albumName": null,
+      "albumCover": "img/album/5a044b9b5e64d.jpg",
+      "albumId": "42",
+      "duration": "204889",
+      "url": "http://musicarma.airbzz.dk/mp3/04-Musicarma--Jeg-Ser-De-Boegelyse-Oeer.mp3",
+      "purchaseUrl": null,
+      "formatedDuration": "3:24"
+    },
+    {
+      "id": "92",
+      "title": "Underlige aftenlufte",
+      "artist": "Musicarma",
+      "albumName": null,
+      "albumCover": "img/album/5a044c35f08ad.jpg",
+      "albumId": "43",
+      "duration": "310710",
+      "url": "http://musicarma.airbzz.dk/mp3/05-Musicarma--Underlige-Aftenlufte.mp3",
+      "purchaseUrl": null,
+      "formatedDuration": "5:10"
+    },
+    {
+      "id": "93",
+      "title": "Den milde dag er lys og lang",
+      "artist": "Musicarma",
+      "albumName": null,
+      "albumCover": "img/album/5a044c7f55caf.jpg",
+      "albumId": "44",
+      "duration": "279566",
+      "url": "http://musicarma.airbzz.dk/mp3/06-Musicarma--Den-Milde-Dag-Er-Lys-Og-Lang.mp3",
+      "purchaseUrl": null,
+      "formatedDuration": "4:39"
+    },
+    {
+      "id": "94",
+      "title": "Danmark nu blunder den lyse nat",
+      "artist": "Musicarma",
+      "albumName": null,
+      "albumCover": "img/album/5a044cc8d86f1.jpg",
+      "albumId": "45",
+      "duration": "174137",
+      "url": "http://musicarma.airbzz.dk/mp3/07-Musicarma--Danmark-Nu-Blunder-Den-Lyse-Nat.mp3",
+      "purchaseUrl": null,
+      "formatedDuration": "2:54"
+    },
+    {
+      "id": "95",
+      "title": "Spurven sidder stum bag kvist",
+      "artist": "Musicarma",
+      "albumName": null,
+      "albumCover": "img/album/5a044d2c09fc5.jpg",
+      "albumId": "46",
+      "duration": "181336",
+      "url": "http://musicarma.airbzz.dk/mp3/08-Musicarma--Spurven-Sidder-Stum-Bag-Kvist.mp3",
+      "purchaseUrl": null,
+      "formatedDuration": "3:10"
+    },
+    {
+      "id": "96",
+      "title": "En yndig og frydefuld sommertid",
+      "artist": "Musicarma",
+      "albumName": null,
+      "albumCover": "img/album/5a044d7723442.jpg",
+      "albumId": "47",
+      "duration": "258908",
+      "url": "http://musicarma.airbzz.dk/mp3/09-Musicarma--En-Yndig-Og-Frydfuld-Sommertid.mp3",
+      "purchaseUrl": null,
+      "formatedDuration": "4:18"
+    },
+    {
+      "id": "89",
+      "title": "I Danmark er jeg født",
+      "artist": "Musicarma",
+      "albumName": null,
+      "albumCover": "img/album/5a13e59ef338d.jpg",
+      "albumId": "40",
+      "duration": "231938",
+      "url": "http://musicarma.airbzz.dk/mp3/02-Musicarma--I-Danmark-Er-Jeg-Foedt.mp3",
+      "purchaseUrl": null,
+      "formatedDuration": "3:51"
+    }
+
+  ]
+}

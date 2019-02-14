@@ -1,0 +1,39 @@
+<ion-view view-title="" hide-nav-bar="true">
+    <ion-content class="background-color">
+        <button type="button" class="button button-full button-theme" play-all="tracks" ng-click="player.show()">Play all</button>
+        <ion-list>
+            <div class="card fifty-fifty" ng-repeat="pl in tracks" add-all-tracks="tracks" play-song="pl" ng-click="player.show()">
+                <!--<div class="card fifty-fifty" ng-repeat="pl in tracks" music-player="play" add-song="pl" ng-click="player.show()">-->
+                <div class="item item-body trackimage">
+                    <img class="full-image" src="{{pl.albumCover}}">
+                </div>
+                <div class="item item-divider">
+                    <h3>{{pl.title}}</h3>
+                    <span class="item-note">
+                        {{pl.formatedDuration}}
+                    </span>
+                </div>
+            </div>
+        </ion-list>
+    </ion-content>
+    <div ng-show="playlist.length" class="player-footer">
+        <div class="footer no-padding">
+            <div class="footer-player-container">
+                <div class="footer-seek">
+                    <div class="seekBase" seek-track>
+                        <div class="seekLoad" ng-style="{width : ( progress + '%' ) }"></div>
+                    </div>
+                </div>
+                <div class="footer-player">
+                    <div class="item item-avatar item-button-right item-icon-right">
+                        <img src="{{currentPlaying.albumCover}}" ng-click="showModal()" />
+                        <h3 ng-click="showModal()">{{currentPlaying.title }}</h3>
+
+                        <button class="button button-clear button-light" play-pause-toggle data-play="<i class='icon ion-play'></i>" data-pause="<i class='icon ion-ios-pause'></i>"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ion-view>
+

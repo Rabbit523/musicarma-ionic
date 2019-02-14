@@ -1,0 +1,126 @@
+﻿
+<sound-manager></sound-manager>
+<ion-modal-view>
+    <ion-header-bar class="bar-dark">
+        <button class="button button-clear button-icon icon ion-arrow-left-c" ng-click="player.hide()"></button>
+        <h1 class="title">{{ currentPlaying.title }}</h1>
+        <button class="button button-clear button-icon icon ion-close"  stop-music clear-playlist ng-click="player.hide()"></button>
+    </ion-header-bar>
+    <ion-content class="player-content">
+        <!-- init soundManager2 player -->
+
+        <ion-list>
+            <div class="cart">
+                <ion-item class="item-image">
+                    <img src="{{currentPlaying.albumCover}}" />
+                </ion-item>
+                <div class="seekBase" seek-track>
+                    <div class="seekLoad" ng-style="{width : ( progress + '%' ) }"></div>
+                </div>
+            </div>
+        </ion-list>
+            <ion-list>
+                <div class="item item-icon-right"  ng-repeat="song in playlist" play-from-playlist="song" ng-class="{'item-icon-left':currentPlaying.id == song.id}">
+                    <i class="icon ion-play" ng-if="currentPlaying.id == song.id"></i>
+                    <h3 >{{song.title}}</h3>
+                    <p>
+                        {{song.formatedDuration}}
+                    </p>
+                    <!--<i class="icon ion-trash-a" remove-from-playlist="song"></i>-->
+                </div>
+            </ion-list>
+
+
+        <!--<p>
+            {{currentPlaying}}
+            Currently Playing: {{ currentPlaying.title }} by {{ currentPlaying.artist }} ({{ currentPostion }} / {{ currentDuration }})
+        </p>
+
+        <div class="seekBase" seek-track>
+            <div class="seekLoad" ng-style="{width : ( progress + '%' ) }"></div>
+        </div>
+        <br />
+        <button play-music>Play</button>
+        -
+        <button pause-music>Pause</button>
+        -
+        <button stop-music>Stop</button>
+        -
+        <button repeat-music>Repeat ({{ repeat }})</button>
+        -
+        <button play-pause-toggle data-play="Play!" data-pause="Pause!">Play Toggle</button>
+
+        Is Playing: {{ isPlaying }}
+        <br />
+        <br />Volume: {{ volume }} -
+        <button music-volume data-type="increase">+</button>
+        -
+        <button music-volume data-type="decrease">-</button>
+        -
+        <button mute-music>Mute ({{ mute }})</button>
+        <br />
+        <br />
+        <button prev-track>Prev Track</button>
+        -
+        <button next-track>Next Track</button>
+        -
+        <button clear-playlist>Clear Playlist</button>
+        <br />
+        <br />
+        <h5>Playlist</h5>
+        <ul>
+            <li ng-repeat="song in playlist">
+                <a play-from-playlist="song">{{ song.title }}</a>
+                -
+                <a remove-from-playlist="song" data-index="{{$index}}">
+                    <small>(remove)</small>
+                </a>
+                <span ng-if="currentPlaying.id == song.id"> - (current)</span>
+            </li>
+        </ul>-->
+        
+    </ion-content>
+    <ion-footer-bar class="footer tabs tabs-icon-only tabs-dark">
+        <div class="tab-item">
+            <button class="button button-clear button-light relative" repeat-music ng-class="{ 'button-active button-positive': repeat }">
+                <i class="icon ion-refresh"></i>
+            </button>
+        </div>
+
+        <div class="tab-item">
+            <button class="button button-clear button-light" prev-track>
+                <i class="icon ion-ios-skipbackward"></i>
+            </button>
+        </div>
+
+        <!--<div class="tab-item">
+            <button class="button button-clear button-light" music-volume data-type="decrease" ng-disabled="volume==0">
+                <i class="icon ion-volume-low"></i>
+            </button>
+        </div>-->
+
+        <div class="tab-item">
+            <button class="button button-clear button-light" play-pause-toggle  data-play="<i class='icon ion-play'></i>" data-pause="<i class='icon ion-ios-pause'></i>">
+                <!--<i class="icon ion-ios-pause" ng-class="{ 'ion-play': !isPlaying, 'ion-ios-pause': isPlaying }" style=""></i>-->
+            </button>
+        </div>
+
+        <!--<div class="tab-item">
+            <button class="button button-clear button-light" music-volume data-type="increase" ng-disabled="volume==100">
+                <i class="icon ion-volume-high"></i>
+            </button>
+        </div>-->
+
+        <div class="tab-item">
+            <button class="button button-clear button-light" next-track>
+                <i class="icon ion-ios-skipforward"></i>
+            </button>
+        </div>
+
+        <div class="tab-item">
+            <button class="button button-clear button-light" stop-music>
+                <i class="icon ion-stop"></i>
+            </button>
+        </div>
+    </ion-footer-bar>
+</ion-modal-view>

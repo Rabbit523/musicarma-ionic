@@ -1,0 +1,18 @@
+{
+  "name": "io.cordova.myapp20db49",
+  "integrations": {
+    "cordova": {}
+  },
+  "gulpDependantTasks": [
+    "sass"
+  ],
+  "gulpStartupTasks": [
+    "watch"
+  ],
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}

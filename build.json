@@ -1,0 +1,11 @@
+﻿{
+  "android": {
+    "release": {
+      "keystore": "D:\\Gurjeet\\KeyStores\\musicarmafree.keystore",
+      "storePassword": "123456",
+      "alias": "com.airbzz.musicarmafree",
+      "password": "123456",
+      "keystoreType": ""
+    }
+  }
+}

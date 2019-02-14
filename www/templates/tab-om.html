@@ -1,0 +1,15 @@
+<ion-view view-title="OM">
+  <ion-content class="background-color">
+     <ion-list>
+         <div class="card background-color box-shadow" ng-repeat="block in data">
+             <div ng-if="block.type=='text'" ng-bind-html="block.content | trusted_html"></div>
+             <div ng-if="block.type=='cover'" class="item item-image">
+                 <img src="img/album/59c8d85207a3d.png" />
+             </div>
+             <div ng-if="block.type=='video'" class="item item-image">
+                 <iframe ng-src="{{block.url_embed|trusted_url}}"></iframe>
+             </div>
+         </div>
+     </ion-list>
+  </ion-content>
+</ion-view>

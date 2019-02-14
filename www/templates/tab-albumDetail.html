@@ -1,0 +1,24 @@
+<ion-view view-title="Tracks">
+    <ion-content class="background-color">
+        <ion-list>
+            <div class="item item-thumbnail-left">
+                <img src="{{album.artworkUrl}}" />
+                <h2>{{album.name}}</h2>
+                <p>{{album.artist}}</p>
+                <p>{{album.totalTracks}} track - {{album.totalDuration}}</p>
+                <span class="item-note" play-all="tracks"  ng-click="player.show()">
+                    <i class="icon ion-play"></i> Listen to all
+                </span>
+            </div>
+            <div class="item item-avatar" ng-repeat="pl in tracks" music-player="play" add-song="pl"  ng-click="player.show()">
+                <img src="{{pl.albumCover}}" />
+                <i class="tracke-lock icon ion-locked"></i>
+                <h3>{{$index+1' - '+pl.title}}</h3>
+                <p>{{pl.artist}}</p>
+                <span class="item-note">
+                    {{pl.formatedDuration}}
+                </span>
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>
